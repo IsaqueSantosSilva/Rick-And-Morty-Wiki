@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar *ngIf="char">
+    <ion-title slot="start">{{ char.name }}</ion-title>
+    <div class="centered-elements-div" slot="start">
+      <img width="40" src="../../assets/icon/favicon.png" alt="" />
+      <h1>Rick and Morty Wiki</h1>
+    </div>
+    <ion-buttons slot="end">
+      <ion-button color="dark" routerLink="/characters">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col sizeMd="4" offsetMd="4">
+        <ion-card *ngIf="char">
+          <ion-card-content>
+            <ion-img src="{{ char.image }}"></ion-img>
+            <ion-card-title>{{ char.name }}</ion-card-title>
+            <div class="container">
+              <p>Status: <span id="status">{{ char.status }}</span></p>
+              <p>Gender: {{ char.gender }}</p>
+              <p>Last Locattion: {{ char.location.name }}</p>
+              <p>Origin: {{ char.origin.name }}</p>
+              <p>Species: {{ char.species }}</p>
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+</ion-content>

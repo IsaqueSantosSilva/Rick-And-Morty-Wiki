@@ -1,0 +1,92 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import "~@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+// @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+// * {
+//   font-family: 'Comic Neue', cursive;
+// }
+
+
+
+@font-face {
+  font-family: "get-schwifty";
+  src: url("assets/fonts/get-schwifty.ttf");
+}
+
+@font-face {
+  font-family: "Comic";
+  src: url("assets/fonts/ComicNeue-Regular.ttf");
+}
+
+* {
+  font-family: Comic;
+}
+
+ion-label {
+  display: none;
+}
+
+ion-title {
+  font-family: get-schwifty;
+  color: #73ff00;
+  text-shadow: 0px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000,
+    1px 1px 1px #000;
+}
+
+ion-content {
+  --background: url("assets/images/bg.png");
+  // font-family: Comic;
+}
+
+.name-title {
+  margin-bottom: 10px;
+}
+
+.centered-elements-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-elements-div img {
+  border-radius: 40em;
+  margin-right: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.centered-elements-div h1 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0px #000;
+}
+
+@media screen and (max-width: 600px) {
+  .centered-elements-div {
+    display: none;
+    box-shadow: 1px 1px 3px #000;
+  }
+}

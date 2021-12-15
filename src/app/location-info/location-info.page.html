@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar *ngIf="location">
+    <ion-title slot="start">{{ location.name }}</ion-title>
+    <div class="centered-elements-div" slot="start">
+      <img width="40" src="../../assets/icon/favicon.png" alt="" />
+      <h1>Rick and Morty Wiki</h1>
+    </div>
+    <ion-buttons slot="end">
+      <ion-button color="dark" routerLink="/locations">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-card *ngIf="location" id="container">
+    <ion-card-content>
+      <ion-card-title class="name-title">{{ location.name }}</ion-card-title>
+      <div class="container">
+        <p>Dimension: {{ location.dimension }}</p>
+        <p>Created: {{ location.created }}</p>
+        <p>Type: {{ location.type }}</p>
+        <p>Residents: {{ location.residents.length }}</p>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

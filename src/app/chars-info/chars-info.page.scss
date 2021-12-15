@@ -1,0 +1,26 @@
+ion-card {
+  margin: auto;
+  max-width: 400px;
+  width: 95%;
+  position: relative;
+  opacity: 0.99;
+}
+
+ion-card-title {
+  text-align: center;
+}
+
+.container {
+  margin-top: 10px;
+  border-radius: 5px;
+  display: grid;
+  place-items: start;
+  // background-color: #111;
+  padding: 0.5rem;
+}
+
+.container p {
+  font-weight: 600;
+  margin: 5px 0;
+}
+

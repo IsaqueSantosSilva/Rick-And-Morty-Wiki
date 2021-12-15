@@ -1,0 +1,23 @@
+ion-content {
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  background: #222;
+  display: grid;
+  padding: 1em;
+  max-width: 500px;
+  width: 95%;
+  border-radius: 3px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@media screen and (min-width: 600px) {
+  ion-title {
+    display: none;
+  }
+}

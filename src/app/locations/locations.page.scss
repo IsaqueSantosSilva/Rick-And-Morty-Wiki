@@ -1,0 +1,35 @@
+ion-searchbar {
+  width: 100%;
+  max-width: 815px;
+  border-radius: 3px;
+  margin: auto;
+}
+
+ion-list {
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.95;
+}
+
+ion-button {
+  transition: all 0.2s ease-in-out;
+}
+
+ion-button:hover {
+  transform: scale(1.1);
+}
+
+ion-toolbar {
+  display: flex;
+}
+
+ion-img {
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px #000;
+  transition: 0.2s;
+}
+
+ion-img:hover {
+  transform: scale(1.1);
+}

@@ -3,13 +3,9 @@
 <br />
 <br />
 
- This is a feedback sender using php mailer.<br />
- it basically sends an email to a google gmail account.<br />
- If you want to use this with your own google email account you will need to activate the option "Less secure app access" in your google account settings.
- <br />
- Link to prototype: [FeedbackSender.com](http://isaquesilva.infinityfreeapp.com/Feedback-Sender-PHP-Mailer/)
- 
-<br />
-<br />
+This is my first Ionic app and i really liked this framework.
+I used the [Rick-And-Mort-Api](https://rickandmortyapi.com//) to do this project, it's a very complete api with pretty much all the information about the show in it.
 
-[<img src="https://github.com/ZekaBoga/Feedback-Sender-PHP-Mailer/blob/main/assets/images/Demo.png" alt="" width="1000" />](http://isaquesilva.infinityfreeapp.com/Feedback-Sender-PHPMailer/)
+ Link to prototype: [RickAndMortWiki.com](/)
+
+[<img src="https://github.com/IsaqueSantosSilva/Rick-And-Morty-Wiki/blob/main/src/assets/images/demo.gif" alt="" width="1000" />](http://isaquesilva.infinityfreeapp.com/Feedback-Sender-PHPMailer/)

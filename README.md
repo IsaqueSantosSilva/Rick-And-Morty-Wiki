@@ -4,7 +4,7 @@
 <br />
 
 This is my first Ionic app and i really liked this framework.
-I used the [Rick-And-Mort-Api](https://rickandmortyapi.com//) to do this project, it's a very complete api with pretty much all the information about the show in it.
+I used the [Rick-And-Morty-Api](https://rickandmortyapi.com//) to do this project, it's a very complete api with pretty much all the information about the show in it.
 
 <br />
 <br />

@@ -8,7 +8,7 @@ I used the [Rick-And-Morty-Api](https://rickandmortyapi.com//) to do this projec
 
 <br />
 
-Link to prototype: https://isaquesantossilva.github.io/Rick-And-Morty-Wiki/characters
+Link to prototype: https://isaquesantossilva.github.io/Rick-And-Morty-Wiki/
 
 <br />
 <br />

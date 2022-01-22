@@ -1,10 +1,7 @@
 <ion-header>
   <ion-toolbar *ngIf="location">
     <ion-title slot="start">{{ location.name }}</ion-title>
-    <div class="centered-elements-div" slot="start">
-      <img width="40" src="../../assets/icon/favicon.png" alt="" />
-      <h1>Rick and Morty Wiki</h1>
-    </div>
+
     <ion-buttons slot="end">
       <ion-back-button defaultHref="locations"></ion-back-button>
     </ion-buttons>
@@ -18,7 +15,7 @@
 
 <ion-content [fullscreen]="true">
 
-  <ion-card *ngIf="location" id="container">
+  <ion-card *ngIf="location">
     <ion-card-content>
       <ion-card-title class="name-title">{{ location.name }}</ion-card-title>
       <div class="container">

@@ -1,13 +1,12 @@
 ion-card {
   margin: auto;
   max-width: 400px;
-  width: 95%;
-  position: relative;
-  opacity: 0.99;
 }
 
 ion-card-title {
   text-align: center;
+  margin-top: 10px;
+  font-size: 2vmax;
 }
 
 .container {
@@ -15,11 +14,16 @@ ion-card-title {
   border-radius: 5px;
   display: grid;
   place-items: start;
-  // background-color: #111;
   padding: 0.5rem;
 }
 
 .container p {
   font-weight: 600;
   margin: 5px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  ion-card-title {
+    font-size: 3vmax;
+  }
 }

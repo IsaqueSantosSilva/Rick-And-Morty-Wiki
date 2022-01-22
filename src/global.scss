@@ -25,50 +25,39 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap");
 
 * {
-    font-family: 'Comic Neue', cursive;
-}
-
-ion-label {
-  display: none;
-}
-
-ion-title {
-  text-shadow: 0px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000,
-    1px 1px 1px #000;
+  font-family: "Comic Neue", cursive;
 }
 
 ion-content {
   --background: url("assets/images/bg.webp");
 }
 
-.name-title {
-  margin-bottom: 10px;
+ion-searchbar {
+  width: 100%;
+  max-width: 715px;
+  margin: auto;
 }
 
-.centered-elements-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ion-list {
+  width: 97%;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-.centered-elements-div img {
-  border-radius: 40em;
-  margin-right: 5px;
-  box-shadow: 1px 1px 3px #000;
+ion-list:first-of-type {
+  border-radius: 2px 2px 0px 0px;
 }
 
-.centered-elements-div h1 {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  text-shadow: 1px 1px 0px #000;
+ion-img {
+  border-radius: 2px;
 }
 
-@media screen and (max-width: 600px) {
-  .centered-elements-div {
-    display: none;
-    box-shadow: 1px 1px 3px #000;
-  }
+ion-card {
+  width: 97%;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 1rem;
 }

@@ -1,16 +1,12 @@
 import { Component } from '@angular/core';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor() { }
-
-  
-
+  constructor() {}
 
   goTogitHub() {
     window.open('https://github.com/IsaqueSantosSilva', "_blank");
@@ -28,7 +24,4 @@ export class AppComponent {
     window.open('https://api.whatsapp.com/send?phone=558296492140&text=sua%20mensagem', "_blank");
   }
 
-  goToRateApp() {
-    window.open('', "_blank");
-  }
 }

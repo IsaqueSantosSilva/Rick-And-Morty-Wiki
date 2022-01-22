@@ -12,7 +12,7 @@ export class CharsInfoPage implements OnInit {
   api: String = 'https://rickandmortyapi.com/api/character/';
 
   charsId: string;
-  char: string;
+  char: any;
   element: any;
 
   constructor(

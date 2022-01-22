@@ -4,8 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { CharactersPageRoutingModule } from './characters-routing.module';
 import { CharactersPage } from './characters.page';
-import { HttpClientModule } from "@angular/common/http";
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+
 
 @NgModule({
   imports: [
@@ -13,7 +13,6 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     FormsModule,
     IonicModule,
     CharactersPageRoutingModule,
-    HttpClientModule,
     Ng2SearchPipeModule
   ],
   declarations: [CharactersPage]

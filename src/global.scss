@@ -25,25 +25,10 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-// @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-// * {
-//   font-family: 'Comic Neue', cursive;
-// }
-
-
-
-@font-face {
-  font-family: "get-schwifty";
-  src: url("assets/fonts/get-schwifty.ttf");
-}
-
-@font-face {
-  font-family: "Comic";
-  src: url("assets/fonts/ComicNeue-Regular.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
 
 * {
-  font-family: Comic;
+    font-family: 'Comic Neue', cursive;
 }
 
 ion-label {
@@ -51,15 +36,12 @@ ion-label {
 }
 
 ion-title {
-  font-family: get-schwifty;
-  color: #73ff00;
   text-shadow: 0px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000,
     1px 1px 1px #000;
 }
 
 ion-content {
-  --background: url("assets/images/bg.png");
-  // font-family: Comic;
+  --background: url("assets/images/bg.webp");
 }
 
 .name-title {

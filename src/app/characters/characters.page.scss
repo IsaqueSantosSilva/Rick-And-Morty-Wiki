@@ -27,14 +27,14 @@ ion-toolbar {
 ion-img {
   border-radius: 3px;
   box-shadow: 0px 0px 5px #000;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 ion-img:hover {
   transform: scale(1.1);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   ion-list p {
     display: none;
   }

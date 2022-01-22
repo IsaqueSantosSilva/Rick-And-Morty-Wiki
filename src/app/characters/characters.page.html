@@ -1,16 +1,19 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title slot="start">Characters</ion-title>
+    <ion-title slot="start"> Rick and Morty Wiki </ion-title>
     <div class="centered-elements-div" slot="start">
       <img width="40" src="../../assets/icon/favicon.png" alt="" />
       <h1>Rick and Morty Wiki</h1>
     </div>
+
     <ion-buttons slot="end">
-      <ion-button color="dark" routerLink="/home">
-        <ion-icon name="arrow-back"></ion-icon>
-      </ion-button>
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
       <ion-menu-button menu="main-menu"></ion-menu-button>
     </ion-buttons>
+    
   </ion-toolbar>
 </ion-header>
 

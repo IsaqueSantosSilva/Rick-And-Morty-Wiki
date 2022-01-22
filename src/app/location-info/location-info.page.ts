@@ -14,8 +14,7 @@ export class LocationInfoPage implements OnInit {
   }
 
   locationsId: string;
-  location: string;
-  element: any;
+  location: any;
 
   ngOnInit() {
     this.locationsId = this.ActivatedRoute.snapshot.paramMap.get('id');

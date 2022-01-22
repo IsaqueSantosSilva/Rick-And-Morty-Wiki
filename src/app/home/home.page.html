@@ -2,18 +2,26 @@
   <ion-toolbar>
     <ion-title slot="start"> Rick and Morty Wiki </ion-title>
 
-    <ion-buttons slot="end">
+    <ion-buttons slot="end" class="menu-btn">
       <ion-menu-button menu="main-menu"></ion-menu-button>
     </ion-buttons>
 
+    <ion-buttons slot="end">
+      <ul>
+        <li routerLink="/home">Home</li>
+        <li routerLink="/characters">Characters</li>
+        <li routerLink="/locations">Locations</li>
+      </ul>
+    </ion-buttons>
+    
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-
   <div class="container">
-    <ion-button color="secondary" routerLink="/characters">Characters</ion-button>
+    <ion-button color="secondary" routerLink="/characters"
+      >Characters</ion-button
+    >
     <ion-button color="danger" routerLink="/locations">Locations</ion-button>
   </div>
-
 </ion-content>

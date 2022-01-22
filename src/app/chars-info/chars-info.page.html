@@ -2,13 +2,22 @@
   <ion-toolbar *ngIf="char">
     <ion-title slot="start">{{ char.name }}</ion-title>
 
-    <ion-buttons slot="end">
-      <ion-back-button defaultHref="characters"></ion-back-button>
+    <ion-buttons slot="end" class="back-btn">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end" class="menu-btn">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
     </ion-buttons>
 
     <ion-buttons slot="end">
-      <ion-menu-button menu="main-menu"></ion-menu-button>
+      <ul>
+        <li routerLink="/home">Home</li>
+        <li routerLink="/characters">Characters</li>
+        <li routerLink="/locations">Locations</li>
+      </ul>
     </ion-buttons>
+
   </ion-toolbar>
 </ion-header>
 

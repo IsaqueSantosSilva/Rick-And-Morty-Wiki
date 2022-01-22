@@ -1,19 +1,28 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title slot="start"> Rick and Morty Wiki </ion-title>
-
-    <ion-buttons slot="end">
-      <ion-back-button defaultHref="home"></ion-back-button>
-    </ion-buttons>
-
-    <ion-buttons slot="end">
-      <ion-menu-button menu="main-menu"></ion-menu-button>
-    </ion-buttons>
-    
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-title slot="start"> Characters </ion-title>
+  
+      <ion-buttons slot="end" class="back-btn">
+        <ion-back-button defaultHref="home"></ion-back-button>
+      </ion-buttons>
+  
+      <ion-buttons slot="end" class="menu-btn">
+        <ion-menu-button menu="main-menu"></ion-menu-button>
+      </ion-buttons>
+  
+      <ion-buttons slot="end">
+        <ul>
+          <li routerLink="/home">Home</li>
+          <li routerLink="/characters">Characters</li>
+          <li routerLink="/locations">Locations</li>
+        </ul>
+      </ion-buttons>
+      
+    </ion-toolbar>
+  </ion-header>
+
   <ion-searchbar placeholder='Try "Rick Sanchez"' [(ngModel)]="searchTerm">
   </ion-searchbar>
 

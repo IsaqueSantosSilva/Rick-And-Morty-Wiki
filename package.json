@@ -1,8 +1,7 @@
 {
-  "name": "Rick-And-Morty-Wiki",
+  "name": "rick-and-morty-wiki",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Isaque Silva",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
